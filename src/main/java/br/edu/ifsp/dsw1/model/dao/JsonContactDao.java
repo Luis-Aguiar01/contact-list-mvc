@@ -116,4 +116,11 @@ class JsonContactDao implements ContactDao {
 			e.printStackTrace();
 		} 
 	}
+
+
+	@Override
+	public List<Contact> findByName(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
